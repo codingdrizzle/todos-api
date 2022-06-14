@@ -12,7 +12,7 @@ app.use(express.json())
 
 
 
-mongoose.connect(process.env.MONGODB_URL || process.env.DATABASE_URL)
+mongoose.connect('mongodb+srv://codingdrizzle:gateway_api${user}@todolist.vczak00.mongodb.net/todoList' || process.env.DATABASE_URL)
         .then(() => console.log('connected to db'))
         .catch((e) => console.error(e))
 
