@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start": "node server",
-    "startDev": "nodemon server"
+    "startDev": "nodemon server.js"
   },
   "author": "Drizzle",
   "license": "ISC",
