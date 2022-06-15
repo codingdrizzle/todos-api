@@ -4,8 +4,12 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "node server",
+    "start": "node server.js",
     "startDev": "nodemon server.js"
+  },
+  "engines" : {
+    "node": "16.13.0",
+    "npm": "8.1.0"
   },
   "author": "Drizzle",
   "license": "ISC",
